@@ -12,13 +12,10 @@ fun main() = application {
     }
 
     program {
-
         val rt = renderTarget(256, 256) {
             colorBuffer()
         }
         val font = loadFont("data/fonts/IBMPlexMono-Regular.ttf", 256.0)
-
-
         val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         extend(ScreenRecorder())
         extend {
