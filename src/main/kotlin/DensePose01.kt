@@ -5,7 +5,8 @@ import org.openrndr.extra.runway.*
 import org.openrndr.ffmpeg.ScreenRecorder
 
 /**
- * write text for DensePose
+ * This demonstrates the body estimation model of DensePose
+ * This example requires a `runway/DensePose` model active in Runway.
  */
 fun main() = application {
     configure {
